@@ -1,0 +1,30 @@
+lsbody {
+    margin: 0px;
+    font-family: 'Overpass', sans-serif;
+    background-color: #AA4E39;
+  }
+.voting-grid-wrapper {
+        width: 2000px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 100px;
+        align-items: center;
+        font-family: 'Overpass', sans-serif;
+}
+
+.contestants {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 900;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 2em;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr; 
+    align-items: center;
+}

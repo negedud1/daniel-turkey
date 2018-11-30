@@ -1,0 +1,78 @@
+/* Navigation Bar */
+
+body {
+    margin: 0px;
+    font-family: 'Overpass', sans-serif;
+}
+
+.navigation-wrapper {
+    height: 200px;
+    background-color: #AA4E39;
+    color: black;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    border: 4px solid black;
+}
+
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > img {
+    width: 216px;
+    height: 100%;
+}
+
+/* center column */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+    width: 750px;
+}
+
+.navigation-wrapper > .center-column > .banner-text {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+    
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.links-wrapper > .nav-link {
+    width: 110px;
+    text-align: center
+    
+}
+
+.links-wrapper > .nav-link a {
+    font-family: 'Overpass', sans-serif;
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: #FFBAAA;
+    letter-spacing: 2px;
+}
+
+/* right column */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+

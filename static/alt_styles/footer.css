@@ -1,0 +1,56 @@
+.footer {
+    background-color: #d3d3d3;
+    color: #858585;
+    font-family: "ubuntu condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    margin-top: -4px;
+}
+
+.footer > .logo-footer img {
+    width: 150px;
+    height: 100%;
+    filter: brightness(50%);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.footer > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; */
+/* /*     flex-direction: ; */
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 400px;
+   
+  
+  
+}
+
+
+.footer > .copyright-wrapper {
+    margin-bottom: 42px;
+    font-size: 0.7em;
+    color: #858585;
+}
+
+.nav-link {
+    width: 100px;
+    text-align: center;
+}
+.nav-link a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.nav-link a:hover {
+   color: #cea135;
+   letter-spacing: 2px;
+}
